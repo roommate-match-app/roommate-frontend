@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Фото жилья не загружено">
+  <rect width="300" height="200" fill="#ececE6"/>
+  <path d="M150 44 54 118h26v54h140v-54h26z" fill="#c7c7bf"/>
+  <rect x="132" y="132" width="36" height="40" fill="#ececE6"/>
+</svg>
