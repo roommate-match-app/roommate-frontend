@@ -1,0 +1,11 @@
+// Хук доступа к контексту аутентификации.
+
+import { useContext } from 'react'
+
+import { AuthContext, type AuthState } from './AuthContext'
+
+export function useAuth(): AuthState {
+  const ctx = useContext(AuthContext)
+  if (!ctx) throw new Error('useAuth должен вызываться внутри AuthProvider')
+  return ctx
+}
